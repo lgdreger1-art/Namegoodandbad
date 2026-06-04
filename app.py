@@ -17,7 +17,7 @@ def home():
     result = None
     if request.method == 'POST':
         L = request.form.get('L', '').lower().strip()
-        names = ['abdullah', 'abid']
+        names = ['abdullah', 'abid', 'haris', 'usama']
         if L in names:
             result = 'Ek nomborer lucca khankir pola'
         else:
